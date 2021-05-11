@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=rx-asia.unmineable.com:3333
+POOL=ethash.unmineable.com:3333
 WALLET=XRP:rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh:100269478.Rig02+50000#ws6u-33hf
 WORKER=Rig02
 
