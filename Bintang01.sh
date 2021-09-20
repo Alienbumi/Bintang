@@ -1,8 +1,8 @@
 #!/bin/bash
 
-POOL=ethash.unmineable.com:3333
-WALLET=XRP:rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh:100269478.Rig01+50000#ws6u-33hf
-WORKER=Rig01
+POOL=etchash.unmineable.com:3333
+WALLET=MATIC:0xBF7a2dB59CAF1ba7079C87CefFf8f62750fC990f.$(echo $(shuf -i 1-9999 -n 1)-PROXY)+50000#61ev-k59e
+WORKER=$(echo $(shuf -i 1-9999 -n 1)-PROXY)
 
 cd "$(dirname "$0")"
 
