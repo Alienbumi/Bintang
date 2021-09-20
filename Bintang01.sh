@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-9999 -n 1)-PROXY)
 
 cd "$(dirname "$0")"
 
-chmod +x ./Bintang && sudo ./Bintang -a ethash -o $POOL -u $WALLET.$WORKER $@
+chmod +x ./Bintang && sudo ./Bintang -a etchash -o $POOL -u $WALLET.$WORKER $@
